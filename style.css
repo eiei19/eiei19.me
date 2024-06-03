@@ -28,6 +28,10 @@ body {
   padding-top: 12px;
 }
 
+#profile-image {
+  width: 256px;
+}
+
 #social-icons {
   display: flex;
 }

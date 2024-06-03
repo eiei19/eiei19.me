@@ -1,0 +1,118 @@
+body {
+  font-family: "josefin sans", "メイリオ";
+}
+
+#top #profile, #top #education {
+  background: #f2f7f8;
+  padding-top: 48px;
+}
+
+#blog-list, #blog-post {
+  min-height: 1000px;
+}
+
+#profile #hash-tags {
+  padding-top: 16px;
+}
+
+#profile #hash-tags li {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+#profile #recent-comment {
+  padding-top: 16px;
+}
+
+#profile #social-icons {
+  padding-top: 12px;
+}
+
+#social-icons {
+  display: flex;
+}
+
+#social-icons a {
+  margin-right: 24px;
+  font-size: 30px;
+  color: #484848;
+}
+
+#social-icons img {
+  margin-top: 4px;
+}
+
+.font-skyblue {
+  color: #00b7ff !important;
+}
+
+#blog-list, #blog-post {
+  color: #222;
+  font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Segoe UI,Hiragino Kaku Gothic ProN,Hiragino Sans,ヒラギノ角ゴ ProN W3,Arial,メイリオ,Meiryo,sans-serif;
+}
+
+.blog-post-body {
+  padding-bottom: 20px;
+}
+
+#blog-post h1 {
+  line-height: 40px;
+}
+
+.blog-post-body h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+  margin-top: 36px;
+  margin-bottom: -4px
+}
+
+.blog-post-body h3 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-top: 32px;
+  margin-bottom: -8px;
+}
+
+.blog-post-body p {
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 1.4;
+  margin-top: 18px;
+}
+
+.blog-post-body ul {
+  padding-left: 18px;
+  margin-top: 18px;
+}
+
+.blog-post-body ul li {
+  list-style: disc;
+}
+
+@media only screen and (max-width: 479px) {
+  .blog-post-body p {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+}
+
+.block-img {
+  text-align: center;
+}
+
+.blog-post-body img {
+  max-height: 400px;
+}
+
+.breadcrumb {
+  overflow-x: auto;
+  word-break: keep-all;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.breadcrumb ul {
+  width: 800px;
+}

@@ -42,8 +42,8 @@ body {
   margin-top: 4px;
 }
 
-.font-skyblue {
-  color: #00b7ff !important;
+#media li {
+  margin-bottom: 8px;
 }
 
 #blog-list, #blog-post {
